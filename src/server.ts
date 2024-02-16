@@ -12,7 +12,7 @@ mongoose.connect('mongodb://localhost/jcdb').then(() => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('COUCOU visiteur VOIS TU CE MESSAGE?');
 });
 
 app.listen(port, () => {
